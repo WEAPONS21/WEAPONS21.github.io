@@ -92,11 +92,9 @@ nav
   text-align: center;
   border: 10px solid rgb(213 219 117);
   display: flex;
-  justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
   align-content: space-between;
-  align-content: flex-end;
 
 }
 
@@ -105,6 +103,7 @@ nav
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
 }
 
 nav
@@ -195,12 +194,35 @@ figcaption
   border: 3px solid blue;
   display: flex;
   flex-direction: column;
-  align-content: center;
+  text-align: center;
   justify-content: center;
 }
 
+.navigation
+{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
 
-@media screen and (max-width: 860px)
+nav
+{
+  border: 3px solid blue;
+  font-size: 1.4em;
+}
+
+.back
+{
+  display: flex;
+  justify-content: center;
+}
+
+h6
+{
+  margin: 10px;
+}
+
+@media screen and (max-width: 920px)
 {
   #formul
   {
@@ -270,3 +292,4 @@ figcaption
     justify-content: center;
   }
 }
+
